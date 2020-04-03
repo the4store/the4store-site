@@ -1,7 +1,8 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
+themeDir = "themes"
 baseURL = "/"
-languageCode = "en-US"
+languageCode = "en-us"
 title = "The 4Store"
 
 # Metadata
