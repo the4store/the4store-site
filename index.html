@@ -52,6 +52,19 @@
 
 <link rel="stylesheet" href="css/style.css">
 
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162796683-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162796683-1');
+</script>
+
+
   </head>
   <body>
 
@@ -188,12 +201,14 @@
 	<div class="col-md-12">
 	  <div class="form-group">
 	    <input type="hidden" name="_subject" value="New the4store.com contact me message">
+	    <div class="g-recaptcha" data-sitekey="6LcHzeYUAAAAAHFcYOozrNZ6B1bWJykZz7MI7cdy"></div>
 	    <input type="text" name="_gotcha" style="display:none">
 	    <button type="submit" class="btn btn-primary btn-outline" value="Send">Submit</button>
 	    
 	  </div>
 	</div>
-      </div>
+  	
+   </div>
 
     </form>
   </div>
